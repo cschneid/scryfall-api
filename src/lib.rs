@@ -8,11 +8,13 @@ const SCRYFALL_DEFAULT_WAIT: i32 = 50;
 
 type URI = String;
 
-struct ScryfallApi {}
+struct ScryfallApi {
+    last_request: Option<chrono::DateTime<chrono::Utc>>,
+}
 
 impl ScryfallApi {
     pub fn new() -> ScryfallApi {
-        ScryfallApi {}
+        ScryfallApi { last_request: None }
     }
 }
 
