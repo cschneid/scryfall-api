@@ -4,5 +4,8 @@ version = "0.1.0"
 authors = ["Chris Schneider <chris@scoutapp.com>"]
 
 [dependencies]
-chrono = "*"
+chrono = { version = "*", features = ["serde"] }
 reqwest = "*"
+serde = "*"
+serde_json = "*"
+serde_derive = "*"
