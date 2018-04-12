@@ -103,19 +103,21 @@ pub struct Card {
     pub timeshifted: bool,                //Boolean		True if this card is timeshifted.
     pub colorshifted: bool,               //Boolean		Ture if this card is colorshifted.
     pub futureshifted: bool,              //Boolean		True if this card is from the future.
-                                          // Card Face
-                                          // name: String, //String		The name of this particular face.
-                                          // type_line: String, //String		The type line of this particular face.
-                                          // oracle_text: Option<String>, //String	Nullable The Oracle text for this face, if any.
-                                          // mana_cost: String, //String		The mana cost for this face. This value will be any empty string "" if the cost is absent. Remember that per the game rules, a missing mana cost and a mana cost of {0} are different values.
-                                          // colors: Colors, //Colors		This face’s colors.
-                                          // color_indicator //Colors	Nullable The colors in this face’s color indicator, if any.
-                                          // power //String	Nullable This face’s power, if any. Note that some cards have powers that are not numeric, such as *.
-                                          // toughness //String	Nullable This face’s toughness, if any.
-                                          // loyalty //String	Nullable This face’s loyalty, if any.
-                                          // flavor_text //String	Nullable The flavor text printed on this face, if any.
-                                          // illustration_id //UUID	Nullable A unique identifier for the card face artwork that remains consistent across reprints. Newly spoiled cards may not have this field yet.
-                                          // image_uris //Object	Nullable An object providing URIs to imagery for this face, if this is a double-sided card. If this card is not double-sided, then the image_uris property will be part of the parent object instead.
+
+    // CardFaces
+
+    // name: String, //String		The name of this particular face.
+    // type_line: String, //String		The type line of this particular face.
+    // oracle_text: Option<String>, //String	Nullable The Oracle text for this face, if any.
+    // mana_cost: String, //String		The mana cost for this face. This value will be any empty string "" if the cost is absent. Remember that per the game rules, a missing mana cost and a mana cost of {0} are different values.
+    // colors: Colors, //Colors		This face’s colors.
+    // color_indicator //Colors	Nullable The colors in this face’s color indicator, if any.
+    // power //String	Nullable This face’s power, if any. Note that some cards have powers that are not numeric, such as *.
+    // toughness //String	Nullable This face’s toughness, if any.
+    // loyalty //String	Nullable This face’s loyalty, if any.
+    // flavor_text //String	Nullable The flavor text printed on this face, if any.
+    // illustration_id //UUID	Nullable A unique identifier for the card face artwork that remains consistent across reprints. Newly spoiled cards may not have this field yet.
+    // image_uris //Object	Nullable An object providing URIs to imagery for this face, if this is a double-sided card. If this card is not double-sided, then the image_uris property will be part of the parent object instead.
 }
 
 pub enum ImageVersion {
@@ -178,120 +180,13 @@ mod tests {
 
     #[test]
     fn set_parse() {
-        let json = r#" {
-                    "object": "set",
-                    "code": "ss1",
-                    "name": "Signature Spellbook: Jace",
-                    "uri": "https://api.scryfall.com/sets/ss1",
-                    "scryfall_uri": "https://scryfall.com/sets/ss1",
-                    "released_at": "2018-06-15",
-                    "set_type": "spellbook",
-                    "card_count": 8,
-                    "digital": false,
-                    "foil": false,
-                    "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg",
-                    "search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Ass1&unique=prints"
-                }
-            "#;
-
+        let json = include_str!("../testcases/set.json");
         let _set: Set = serde_json::from_str(json).expect("Parse Set JSON");
     }
 
     #[test]
     fn card_parse() {
-        let json = r#"
-                {
-                    "object": "card",
-                    "id": "8cae1a42-052e-4110-9afc-d3ec83b7c8a9",
-                    "oracle_id": "67362406-b1ca-49e2-800d-9050bfe8742a",
-                    "multiverse_ids": [
-                        442054
-                    ],
-                    "mtgo_id": 67044,
-                    "mtgo_foil_id": 67045,
-                    "name": "Merfolk Looter",
-                    "uri": "https://api.scryfall.com/cards/a25/65",
-                    "scryfall_uri": "https://scryfall.com/card/a25/65?utm_source=api",
-                    "layout": "normal",
-                    "highres_image": true,
-                    "image_uris": {
-                        "small": "https://img.scryfall.com/cards/small/en/a25/65.jpg?1521725642",
-                        "normal": "https://img.scryfall.com/cards/normal/en/a25/65.jpg?1521725642",
-                        "large": "https://img.scryfall.com/cards/large/en/a25/65.jpg?1521725642",
-                        "png": "https://img.scryfall.com/cards/png/en/a25/65.png?1521725642",
-                        "art_crop": "https://img.scryfall.com/cards/art_crop/en/a25/65.jpg?1521725642",
-                        "border_crop": "https://img.scryfall.com/cards/border_crop/en/a25/65.jpg?1521725642"
-                    },
-                    "cmc": 2,
-                    "type_line": "Creature — Merfolk Rogue",
-                    "oracle_text": "{T}: Draw a card, then discard a card.",
-                    "mana_cost": "{1}{U}",
-                    "power": "1",
-                    "toughness": "1",
-                    "colors": [
-                        "U"
-                    ],
-                    "color_identity": [
-                        "U"
-                    ],
-                    "legalities": {
-                        "standard": "not_legal",
-                        "future": "not_legal",
-                        "frontier": "not_legal",
-                        "modern": "legal",
-                        "legacy": "legal",
-                        "pauper": "legal",
-                        "vintage": "legal",
-                        "penny": "legal",
-                        "commander": "legal",
-                        "1v1": "legal",
-                        "duel": "legal",
-                        "brawl": "not_legal"
-                    },
-                    "reserved": false,
-                    "reprint": true,
-                    "set": "a25",
-                    "set_name": "Masters 25",
-                    "set_uri": "https://api.scryfall.com/sets/a25",
-                    "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aa25&unique=prints",
-                    "scryfall_set_uri": "https://scryfall.com/sets/a25?utm_source=api",
-                    "rulings_uri": "https://api.scryfall.com/cards/a25/65/rulings",
-                    "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CMerfolk+Looter%E2%80%9D&unique=prints",
-                    "collector_number": "65",
-                    "digital": false,
-                    "rarity": "uncommon",
-                    "watermark": "set",
-                    "flavor_text": "Merfolk don't always know what they're looking for, but they're certain once they find it.",
-                    "illustration_id": "c192fa94-2420-4c2d-a6fb-d103fb42a925",
-                    "artist": "Tristan Elwell",
-                    "frame": "2015",
-                    "full_art": false,
-                    "border_color": "black",
-                    "timeshifted": false,
-                    "colorshifted": false,
-                    "futureshifted": false,
-                    "edhrec_rank": 3927,
-                    "usd": "0.07",
-                    "tix": "0.02",
-                    "eur": "0.05",
-                    "related_uris": {
-                        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=442054",
-                        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Merfolk+Looter&page=1&partner=Scryfall",
-                        "edhrec": "http://edhrec.com/route/?cc=Merfolk+Looter",
-                        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Merfolk+Looter"
-                    },
-                    "purchase_uris": {
-                        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Merfolk+Looter&tag=scryfall-20",
-                        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Merfolk+Looter&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
-                        "tcgplayer": "https://scryfall.com/s/tcgplayer/161494",
-                        "magiccardmarket": "https://scryfall.com/s/mcm/319234",
-                        "cardhoarder": "https://www.cardhoarder.com/cards/67044?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
-                        "card_kingdom": "https://www.cardkingdom.com/catalog/item/217162?partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
-                        "mtgo_traders": "http://www.mtgotraders.com/deck/ref.php?id=67044&referral=scryfall",
-                        "coolstuffinc": "https://scryfall.com/s/coolstuffinc/4340666"
-                    }
-                }
-            "#;
+        let json = include_str!("../testcases/card.json");
         let _card: Card = serde_json::from_str(json).expect("Parse Card JSON");
     }
 }

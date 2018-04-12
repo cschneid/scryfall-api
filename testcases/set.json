@@ -1,0 +1,15 @@
+{
+  "object": "set",
+  "code": "ss1",
+  "name": "Signature Spellbook: Jace",
+  "uri": "https://api.scryfall.com/sets/ss1",
+  "scryfall_uri": "https://scryfall.com/sets/ss1",
+  "released_at": "2018-06-15",
+  "set_type": "spellbook",
+  "card_count": 8,
+  "digital": false,
+  "foil": false,
+  "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg",
+  "search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Ass1&unique=prints"
+}
+
