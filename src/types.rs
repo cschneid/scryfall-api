@@ -34,7 +34,7 @@ pub struct Set {
     /// True if this set was only released on Magic Online.
     pub digital: bool,
     /// True if this set contains only foil cards.
-    pub foil: bool,
+    pub foil_only: bool,
 
     /// A URI to an SVG file for this set’s icon on Scryfall’s CDN. Hotlinking this image isn’t
     /// recommended, because it may change slightly over time. You should download it and use it
@@ -53,57 +53,106 @@ type Images = HashMap<String, URI>;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Card {
-    pub id: String,        // 	UUID		A unique ID for this card in Scryfall’s database.
-    pub oracle_id: String, // 	UUID		A unique ID for this card’s oracle identity. This value is consistent across reprinted card editions, and unique among different cards with the same name (tokens, Unstable variants, etc).
-    pub multiverse_ids: Option<Vec<u64>>, // 	Array	Nullable This card’s multiverse IDs on Gatherer, if any, as an array of integers. Note that Scryfall includes many promo cards, tokens, and other esoteric objects that do not have these identifiers.
-    pub mtgo_id: Option<MtgoId>, // 	Integer	Nullable This card’s Magic Online ID (also known as the Catalog ID), if any. A large percentage of cards are not available on Magic Online and do not have this ID.
-    pub mtgo_foil_id: Option<MtgoId>, // 	Integer	Nullable This card’s foil Magic Online ID (also known as the Catalog ID), if any. A large percentage of cards are not available on Magic Online and do not have this ID.
-    pub uri: URI,                     //	URI		A link to this card object on Scryfall’s API.
-    pub scryfall_uri: URI, //	URI		A link to this card’s permapage on Scryfall’s website.
-    pub prints_search_uri: URI, //	URI		A link to where you can begin paginating all re/prints for this card on Scryfall’s API.
-    pub rulings_uri: URI,       // 	URI		A link to this card’s rulings on Scryfall’s API.
-    pub name: String, //String		The name of this card. If this card has multiple faces, this field will contain both names separated by ␣//␣.
-    pub layout: String, //String		A computer-readable designation for this card’s layout. See the layout article.
-    pub cmc: f64, //Decimal		The card’s converted mana cost. Note that some funny cards have fractional mana costs.
-    pub type_line: String, //String		The type line of this card.
-    pub oracle_text: Option<String>, //String	Nullable The Oracle text for this card, if any.
-    pub mana_cost: String, //String		The mana cost for this card. This value will be any empty string "" if the cost is absent. Remember that per the game rules, a missing mana cost and a mana cost of {0} are different values.
-    pub power: Option<String>, //String	Nullable This card’s power, if any. Note that some cards have powers that are not numeric, such as *.
-    pub toughness: Option<String>, //String	Nullable This card’s toughness, if any. Note that some cards have toughnesses that are not numeric, such as *.
-    pub loyalty: Option<String>, //String	Nullable This loyalty if any. Note that some cards have loyalties that are not numeric, such as X.
-    pub life_modifier: Option<String>, //String	Nullable This card’s life modifier, if it is Vanguard card. This value will contain a delta, such as +2.
-    pub hand_modifier: Option<String>, //String	Nullable This card’s hand modifier, if it is Vanguard card. This value will contain a delta, such as -1.
-    pub colors: Colors,                //Colors		This card’s colors.
-    pub color_indicator: Option<Colors>, //Colors	Nullable The colors in this card’s color indicator, if any. A null value for this field indicates the card does not have one.
-    pub color_identity: Colors,          //Colors		This card’s color identity.
-    pub all_parts: Option<Vec<String>>, //Array	Nullable If this card is closely related to other cards, this property will be an array with.
-    pub card_faces: Option<Vec<String>>, //Array	Nullable An array of Card Face objects, if this card is multifaced.
-    pub legalities: Legalities,          //Object		An object describing the legality of this card.
-    pub reserved: bool,                  //Boolean		True if this card is on the Reserved List.
-    pub edhrec_rank: Option<i64>, //Integer	Nullable This card’s overall rank/popularity on EDHREC. Not all carsd are ranked.
-    pub set: String,              //String		This card’s set code.
-    pub set_name: String,         //String		This card’s full set name.
-    pub collector_number: String, //String		This card’s collector number. Note that collector numbers can contain non-numeric characters, such as letters or ★.
-    pub set_search_uri: URI, //URI		A link to where you can begin paginating this card’s set on the Scryfall API.
-    pub scryfall_set_uri: URI, //URI		A link to this card’s set on Scryfall’s website.
-    pub image_uris: Option<Images>, //Object	Nullable An object listing available imagery for this card. See the [Card Imagery](#) article for more information.
-    pub highres_image: bool,        //Boolean		True if this card’s imagery is high resolution.
-    pub reprint: bool,              //Boolean		True if this card is a reprint.
-    pub digital: bool,              //Boolean		True if this is a digital card on Magic Online.
-    pub rarity: String, //String		This card’s rarity. One of common, uncommon, rare, or mythic.
-    pub flavor_text: Option<String>, //String	Nullable The flavor text, if any.
-    pub artist: Option<String>, //String	Nullable The name of the illustrator of this card. Newly spoiled cards may not have this field yet.
-    pub illustration_id: Option<String>, //UUID	Nullable A unique identifier for the card artwork that remains consistent across reprints. Newly spoiled cards may not have this field yet.
-    pub frame: String,                   //String		This card’s frame layout. See.
-    pub full_art: bool, //Boolean		True if this card’s artwork is larger than normal.
-    pub watermark: Option<String>, //String	Nullable This card’s watermark, if any.
-    pub border_color: String, //String		This card’s border color: black, borderless, gold, silver, or white.
-    pub story_spotlight_number: Option<u64>, //Integer	Nullable This card’s story spotlight number, if any.
-    pub story_spotlight_uri: Option<URI>, //URI	Nullable A URL to this cards’s story article, if any.
-    pub timeshifted: bool,                //Boolean		True if this card is timeshifted.
-    pub colorshifted: bool,               //Boolean		Ture if this card is colorshifted.
-    pub futureshifted: bool,              //Boolean		True if this card is from the future.
-
+    /// 	UUID		A unique ID for this card in Scryfall’s database.
+    pub id: String,
+    /// 	UUID		A unique ID for this card’s oracle identity. This value is consistent across reprinted card editions, and unique among different cards with the same name (tokens, Unstable variants, etc).
+    pub oracle_id: String,
+    /// 	Array	Nullable This card’s multiverse IDs on Gatherer, if any, as an array of integers. Note that Scryfall includes many promo cards, tokens, and other esoteric objects that do not have these identifiers.
+    pub multiverse_ids: Option<Vec<u64>>,
+    /// 	Integer	Nullable This card’s Magic Online ID (also known as the Catalog ID), if any. A large percentage of cards are not available on Magic Online and do not have this ID.
+    pub mtgo_id: Option<MtgoId>,
+    /// 	Integer	Nullable This card’s foil Magic Online ID (also known as the Catalog ID), if any. A large percentage of cards are not available on Magic Online and do not have this ID.
+    pub mtgo_foil_id: Option<MtgoId>,
+    ///	URI		A link to this card object on Scryfall’s API.
+    pub uri: URI,
+    ///	URI		A link to this card’s permapage on Scryfall’s website.
+    pub scryfall_uri: URI,
+    ///	URI		A link to where you can begin paginating all re/prints for this card on Scryfall’s API.
+    pub prints_search_uri: URI,
+    /// 	URI		A link to this card’s rulings on Scryfall’s API.
+    pub rulings_uri: URI,
+    ///String		The name of this card. If this card has multiple faces, this field will contain both names separated by ␣//␣.
+    pub name: String,
+    ///String		A computer-readable designation for this card’s layout. See the layout article.
+    pub layout: String,
+    ///Decimal		The card’s converted mana cost. Note that some funny cards have fractional mana costs.
+    pub cmc: f64,
+    ///String		The type line of this card.
+    pub type_line: String,
+    ///String	Nullable The Oracle text for this card, if any.
+    pub oracle_text: Option<String>,
+    ///String		The mana cost for this card. This value will be any empty string "" if the cost is absent. Remember that per the game rules, a missing mana cost and a mana cost of {0} are different values.
+    pub mana_cost: String,
+    ///String	Nullable This card’s power, if any. Note that some cards have powers that are not numeric, such as *.
+    pub power: Option<String>,
+    ///String	Nullable This card’s toughness, if any. Note that some cards have toughnesses that are not numeric, such as *.
+    pub toughness: Option<String>,
+    ///String	Nullable This loyalty if any. Note that some cards have loyalties that are not numeric, such as X.
+    pub loyalty: Option<String>,
+    ///String	Nullable This card’s life modifier, if it is Vanguard card. This value will contain a delta, such as +2.
+    pub life_modifier: Option<String>,
+    ///String	Nullable This card’s hand modifier, if it is Vanguard card. This value will contain a delta, such as -1.
+    pub hand_modifier: Option<String>,
+    ///Colors		This card’s colors.
+    pub colors: Colors,
+    ///Colors	Nullable The colors in this card’s color indicator, if any. A null value for this field indicates the card does not have one.
+    pub color_indicator: Option<Colors>,
+    ///Colors		This card’s color identity.
+    pub color_identity: Colors,
+    ///Array	Nullable If this card is closely related to other cards, this property will be an array with.
+    pub all_parts: Option<Vec<String>>,
+    ///Array	Nullable An array of Card Face objects, if this card is multifaced.
+    pub card_faces: Option<Vec<String>>,
+    ///Object		An object describing the legality of this card.
+    pub legalities: Legalities,
+    ///Boolean		True if this card is on the Reserved List.
+    pub reserved: bool,
+    ///Integer	Nullable This card’s overall rank/popularity on EDHREC. Not all carsd are ranked.
+    pub edhrec_rank: Option<i64>,
+    ///String		This card’s set code.
+    pub set: String,
+    ///String		This card’s full set name.
+    pub set_name: String,
+    ///String		This card’s collector number. Note that collector numbers can contain non-numeric characters, such as letters or ★.
+    pub collector_number: String,
+    ///URI		A link to where you can begin paginating this card’s set on the Scryfall API.
+    pub set_search_uri: URI,
+    ///URI		A link to this card’s set on Scryfall’s website.
+    pub scryfall_set_uri: URI,
+    ///Object	Nullable An object listing available imagery for this card. See the [Card Imagery](#) article for more information.
+    pub image_uris: Option<Images>,
+    ///Boolean		True if this card’s imagery is high resolution.
+    pub highres_image: bool,
+    ///Boolean		True if this card is a reprint.
+    pub reprint: bool,
+    ///Boolean		True if this is a digital card on Magic Online.
+    pub digital: bool,
+    ///String		This card’s rarity. One of common, uncommon, rare, or mythic.
+    pub rarity: String,
+    ///String	Nullable The flavor text, if any.
+    pub flavor_text: Option<String>,
+    ///String	Nullable The name of the illustrator of this card. Newly spoiled cards may not have this field yet.
+    pub artist: Option<String>,
+    ///UUID	Nullable A unique identifier for the card artwork that remains consistent across reprints. Newly spoiled cards may not have this field yet.
+    pub illustration_id: Option<String>,
+    ///String		This card’s frame layout. See.
+    pub frame: String,
+    ///Boolean		True if this card’s artwork is larger than normal.
+    pub full_art: bool,
+    ///String	Nullable This card’s watermark, if any.
+    pub watermark: Option<String>,
+    ///String		This card’s border color: black, borderless, gold, silver, or white.
+    pub border_color: String,
+    ///Integer	Nullable This card’s story spotlight number, if any.
+    pub story_spotlight_number: Option<u64>,
+    ///URI	Nullable A URL to this cards’s story article, if any.
+    pub story_spotlight_uri: Option<URI>,
+    ///Boolean		True if this card is timeshifted.
+    pub timeshifted: bool,
+    ///Boolean		Ture if this card is colorshifted.
+    pub colorshifted: bool,
+    ///Boolean		True if this card is from the future.
+    pub futureshifted: bool,
     // CardFaces
 
     // name: String, //String		The name of this particular face.

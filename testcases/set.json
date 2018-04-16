@@ -8,7 +8,7 @@
   "set_type": "spellbook",
   "card_count": 8,
   "digital": false,
-  "foil": false,
+  "foil_only": false,
   "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg",
   "search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Ass1&unique=prints"
 }

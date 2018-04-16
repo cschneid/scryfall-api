@@ -13,7 +13,7 @@
       "set_type": "spellbook",
       "card_count": 8,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -28,7 +28,7 @@
       "set_type": "expansion",
       "card_count": 170,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dom.svg"
     },
     {
@@ -42,7 +42,7 @@
       "card_count": 7,
       "parent_set_code": "dom",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dom.svg"
     },
     {
@@ -56,7 +56,7 @@
       "card_count": 1,
       "parent_set_code": "dom",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dom.svg"
     },
     {
@@ -71,7 +71,7 @@
       "set_type": "duel_deck",
       "card_count": 75,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddu.svg"
     },
     {
@@ -85,7 +85,7 @@
       "set_type": "masters",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/a25.svg"
     },
     {
@@ -99,7 +99,7 @@
       "card_count": 16,
       "parent_set_code": "a25",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/a25.svg"
     },
     {
@@ -112,7 +112,7 @@
       "set_type": "promo",
       "card_count": 1,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -125,7 +125,7 @@
       "set_type": "promo",
       "card_count": 1,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -140,7 +140,7 @@
       "set_type": "expansion",
       "card_count": 205,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "xln",
       "block": "Ixalan",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/rix.svg"
@@ -156,7 +156,7 @@
       "card_count": 66,
       "parent_set_code": "rix",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "xln",
       "block": "Ixalan",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/rix.svg"
@@ -172,7 +172,7 @@
       "card_count": 7,
       "parent_set_code": "rix",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "xln",
       "block": "Ixalan",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/rix.svg"
@@ -187,7 +187,7 @@
       "set_type": "promo",
       "card_count": 3,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -201,7 +201,7 @@
       "set_type": "funny",
       "card_count": 268,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ust.svg"
     },
     {
@@ -215,7 +215,7 @@
       "card_count": 7,
       "parent_set_code": "ima",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ima.svg"
     },
     {
@@ -229,7 +229,7 @@
       "set_type": "box",
       "card_count": 48,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/e02.svg"
     },
     {
@@ -244,7 +244,7 @@
       "set_type": "from_the_vault",
       "card_count": 16,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/v17.svg"
     },
     {
@@ -258,7 +258,7 @@
       "card_count": 10,
       "parent_set_code": "xln",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "xln",
       "block": "Ixalan",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/xln.svg"
@@ -275,7 +275,7 @@
       "set_type": "masters",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ima.svg"
     },
     {
@@ -289,7 +289,7 @@
       "card_count": 20,
       "parent_set_code": "ust",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ust.svg"
     },
     {
@@ -303,7 +303,7 @@
       "card_count": 1,
       "parent_set_code": "ust",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ust.svg"
     },
     {
@@ -317,7 +317,7 @@
       "set_type": "duel_deck",
       "card_count": 63,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddt.svg"
     },
     {
@@ -331,7 +331,7 @@
       "card_count": 3,
       "parent_set_code": "ddt",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddt.svg"
     },
     {
@@ -344,7 +344,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -359,7 +359,7 @@
       "set_type": "expansion",
       "card_count": 289,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "xln",
       "block": "Ixalan",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/xln.svg"
@@ -375,7 +375,7 @@
       "card_count": 83,
       "parent_set_code": "xln",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "xln",
       "block": "Ixalan",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/xln.svg"
@@ -391,7 +391,7 @@
       "card_count": 11,
       "parent_set_code": "xln",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "xln",
       "block": "Ixalan",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/xln.svg"
@@ -407,7 +407,7 @@
       "card_count": 5,
       "parent_set_code": "xln",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "xln",
       "block": "Ixalan",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
@@ -423,7 +423,7 @@
       "set_type": "funny",
       "card_count": 4,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/h17.svg"
     },
     {
@@ -437,7 +437,7 @@
       "set_type": "funny",
       "card_count": 3,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -451,7 +451,7 @@
       "card_count": 5,
       "parent_set_code": "e01",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/e01.svg"
     },
     {
@@ -465,7 +465,7 @@
       "card_count": 4,
       "parent_set_code": "c17",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c17.svg"
     },
     {
@@ -479,7 +479,7 @@
       "set_type": "commander",
       "card_count": 309,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c17.svg"
     },
     {
@@ -493,7 +493,7 @@
       "card_count": 11,
       "parent_set_code": "c17",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c17.svg"
     },
     {
@@ -506,7 +506,7 @@
       "set_type": "promo",
       "card_count": 6,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -521,7 +521,7 @@
       "set_type": "expansion",
       "card_count": 209,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "akh",
       "block": "Amonkhet",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/hou.svg"
@@ -537,7 +537,7 @@
       "card_count": 58,
       "parent_set_code": "hou",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "akh",
       "block": "Amonkhet",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/hou.svg"
@@ -553,7 +553,7 @@
       "card_count": 14,
       "parent_set_code": "hou",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "akh",
       "block": "Amonkhet",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/hou.svg"
@@ -569,7 +569,7 @@
       "set_type": "archenemy",
       "card_count": 126,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/e01.svg"
     },
     {
@@ -583,7 +583,7 @@
       "set_type": "commander",
       "card_count": 320,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/cma.svg"
     },
     {
@@ -597,7 +597,7 @@
       "card_count": 20,
       "parent_set_code": "cma",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/cma.svg"
     },
     {
@@ -612,7 +612,7 @@
       "set_type": "expansion",
       "card_count": 287,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "akh",
       "block": "Amonkhet",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/akh.svg"
@@ -628,7 +628,7 @@
       "card_count": 72,
       "parent_set_code": "akh",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "akh",
       "block": "Amonkhet",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/akh.svg"
@@ -644,7 +644,7 @@
       "card_count": 27,
       "parent_set_code": "akh",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "akh",
       "block": "Amonkhet",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/akh.svg"
@@ -661,7 +661,7 @@
       "card_count": 54,
       "parent_set_code": "akh",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "akh",
       "block": "Amonkhet",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mp2.svg"
@@ -678,7 +678,7 @@
       "set_type": "starter",
       "card_count": 30,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/w17.svg"
     },
     {
@@ -692,7 +692,7 @@
       "card_count": 7,
       "parent_set_code": "dds",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dds.svg"
     },
     {
@@ -706,7 +706,7 @@
       "set_type": "duel_deck",
       "card_count": 65,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dds.svg"
     },
     {
@@ -720,7 +720,7 @@
       "card_count": 21,
       "parent_set_code": "mm3",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mm3.svg"
     },
     {
@@ -735,7 +735,7 @@
       "set_type": "masters",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mm3.svg"
     },
     {
@@ -749,7 +749,7 @@
       "card_count": 4,
       "parent_set_code": "aer",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "kld",
       "block": "Kaladesh",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/aer.svg"
@@ -766,7 +766,7 @@
       "set_type": "expansion",
       "card_count": 194,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "kld",
       "block": "Kaladesh",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/aer.svg"
@@ -782,7 +782,7 @@
       "card_count": 58,
       "parent_set_code": "aer",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "kld",
       "block": "Kaladesh",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/aer.svg"
@@ -798,7 +798,7 @@
       "card_count": 1,
       "parent_set_code": "ltk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -811,7 +811,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -824,7 +824,7 @@
       "set_type": "promo",
       "card_count": 9,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -838,7 +838,7 @@
       "card_count": 19,
       "parent_set_code": "pca",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -852,7 +852,7 @@
       "set_type": "planechase",
       "card_count": 242,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pca.svg"
     },
     {
@@ -867,7 +867,7 @@
       "set_type": "treasure_chest",
       "card_count": 172,
       "digital": true,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pz2.svg"
     },
     {
@@ -881,7 +881,7 @@
       "card_count": 5,
       "parent_set_code": "c16",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c16.svg"
     },
     {
@@ -895,7 +895,7 @@
       "card_count": 21,
       "parent_set_code": "c16",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c16.svg"
     },
     {
@@ -909,7 +909,7 @@
       "set_type": "commander",
       "card_count": 351,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c16.svg"
     },
     {
@@ -922,7 +922,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -937,7 +937,7 @@
       "set_type": "expansion",
       "card_count": 274,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "kld",
       "block": "Kaladesh",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/kld.svg"
@@ -953,7 +953,7 @@
       "card_count": 13,
       "parent_set_code": "kld",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "kld",
       "block": "Kaladesh",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/kld.svg"
@@ -969,7 +969,7 @@
       "card_count": 73,
       "parent_set_code": "kld",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "kld",
       "block": "Kaladesh",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/kld.svg"
@@ -986,7 +986,7 @@
       "card_count": 54,
       "parent_set_code": "kld",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "kld",
       "block": "Kaladesh",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mps.svg"
@@ -1002,7 +1002,7 @@
       "set_type": "duel_deck",
       "card_count": 75,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddr.svg"
     },
     {
@@ -1016,7 +1016,7 @@
       "set_type": "conspiracy",
       "card_count": 222,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/cn2.svg"
     },
     {
@@ -1030,7 +1030,7 @@
       "card_count": 12,
       "parent_set_code": "cn2",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/cn2.svg"
     },
     {
@@ -1045,7 +1045,7 @@
       "set_type": "from_the_vault",
       "card_count": 16,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/v16.svg"
     },
     {
@@ -1060,7 +1060,7 @@
       "set_type": "expansion",
       "card_count": 208,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "soi",
       "block": "Shadows Over Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/emn.svg"
@@ -1076,7 +1076,7 @@
       "card_count": 11,
       "parent_set_code": "emn",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "soi",
       "block": "Shadows Over Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/emn.svg"
@@ -1092,7 +1092,7 @@
       "card_count": 72,
       "parent_set_code": "emn",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "soi",
       "block": "Shadows Over Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/emn.svg"
@@ -1108,7 +1108,7 @@
       "card_count": 16,
       "parent_set_code": "ema",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ema.svg"
     },
     {
@@ -1123,7 +1123,7 @@
       "set_type": "masters",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ema.svg"
     },
     {
@@ -1138,7 +1138,7 @@
       "set_type": "expansion",
       "card_count": 297,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "soi",
       "block": "Shadows Over Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/soi.svg"
@@ -1154,7 +1154,7 @@
       "card_count": 20,
       "parent_set_code": "soi",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "soi",
       "block": "Shadows Over Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/soi.svg"
@@ -1170,7 +1170,7 @@
       "card_count": 87,
       "parent_set_code": "soi",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "soi",
       "block": "Shadows Over Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/soi.svg"
@@ -1187,7 +1187,7 @@
       "set_type": "starter",
       "card_count": 16,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/w16.svg"
     },
     {
@@ -1201,7 +1201,7 @@
       "set_type": "duel_deck",
       "card_count": 80,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddq.svg"
     },
     {
@@ -1216,7 +1216,7 @@
       "set_type": "expansion",
       "card_count": 186,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "bfz",
       "block": "Battle for Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ogw.svg"
@@ -1232,7 +1232,7 @@
       "card_count": 11,
       "parent_set_code": "ogw",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "bfz",
       "block": "Battle for Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ogw.svg"
@@ -1248,7 +1248,7 @@
       "card_count": 63,
       "parent_set_code": "ogw",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "bfz",
       "block": "Battle for Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ogw.svg"
@@ -1264,7 +1264,7 @@
       "card_count": 1,
       "parent_set_code": "ltk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -1277,7 +1277,7 @@
       "set_type": "promo",
       "card_count": 7,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -1290,7 +1290,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -1305,7 +1305,7 @@
       "set_type": "treasure_chest",
       "card_count": 149,
       "digital": true,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pz1.svg"
     },
     {
@@ -1319,7 +1319,7 @@
       "card_count": 25,
       "parent_set_code": "c15",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c15.svg"
     },
     {
@@ -1333,7 +1333,7 @@
       "card_count": 5,
       "parent_set_code": "c15",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c15.svg"
     },
     {
@@ -1347,7 +1347,7 @@
       "set_type": "commander",
       "card_count": 342,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c15.svg"
     },
     {
@@ -1361,7 +1361,7 @@
       "card_count": 14,
       "parent_set_code": "bfz",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "bfz",
       "block": "Battle for Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/bfz.svg"
@@ -1378,7 +1378,7 @@
       "set_type": "expansion",
       "card_count": 299,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "bfz",
       "block": "Battle for Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/bfz.svg"
@@ -1394,7 +1394,7 @@
       "card_count": 5,
       "parent_set_code": "bfz",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "bfz",
       "block": "Battle for Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/bfz.svg"
@@ -1410,7 +1410,7 @@
       "card_count": 78,
       "parent_set_code": "bfz",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "bfz",
       "block": "Battle for Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/bfz.svg"
@@ -1427,7 +1427,7 @@
       "card_count": 45,
       "parent_set_code": "bfz",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "bfz",
       "block": "Battle for Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/exp.svg"
@@ -1443,7 +1443,7 @@
       "set_type": "duel_deck",
       "card_count": 79,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddp.svg"
     },
     {
@@ -1458,7 +1458,7 @@
       "set_type": "from_the_vault",
       "card_count": 15,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/v15.svg"
     },
     {
@@ -1472,7 +1472,7 @@
       "card_count": 6,
       "parent_set_code": "ori",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -1486,7 +1486,7 @@
       "card_count": 48,
       "parent_set_code": "ori",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ori.svg"
     },
     {
@@ -1501,7 +1501,7 @@
       "set_type": "core",
       "card_count": 288,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ori.svg"
     },
     {
@@ -1515,7 +1515,7 @@
       "card_count": 15,
       "parent_set_code": "ori",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ori.svg"
     },
     {
@@ -1528,7 +1528,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -1542,7 +1542,7 @@
       "card_count": 16,
       "parent_set_code": "mm2",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mm2.svg"
     },
     {
@@ -1557,7 +1557,7 @@
       "set_type": "masters",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mm2.svg"
     },
     {
@@ -1572,7 +1572,7 @@
       "set_type": "masters",
       "card_count": 269,
       "digital": true,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/tpr.svg"
     },
     {
@@ -1586,7 +1586,7 @@
       "card_count": 4,
       "parent_set_code": "dtk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ktk",
       "block": "Khans of Tarkir",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dtk.svg"
@@ -1602,7 +1602,7 @@
       "card_count": 8,
       "parent_set_code": "dtk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ktk",
       "block": "Khans of Tarkir",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dtk.svg"
@@ -1619,7 +1619,7 @@
       "set_type": "expansion",
       "card_count": 264,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ktk",
       "block": "Khans of Tarkir",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dtk.svg"
@@ -1635,7 +1635,7 @@
       "card_count": 49,
       "parent_set_code": "dtk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ktk",
       "block": "Khans of Tarkir",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dtk.svg"
@@ -1651,7 +1651,7 @@
       "set_type": "duel_deck",
       "card_count": 67,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddo.svg"
     },
     {
@@ -1665,7 +1665,7 @@
       "card_count": 4,
       "parent_set_code": "frf",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ktk",
       "block": "Khans of Tarkir",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/frf.svg"
@@ -1682,7 +1682,7 @@
       "set_type": "expansion",
       "card_count": 185,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ktk",
       "block": "Khans of Tarkir",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/frf.svg"
@@ -1698,7 +1698,7 @@
       "card_count": 39,
       "parent_set_code": "frf",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ktk",
       "block": "Khans of Tarkir",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/frf.svg"
@@ -1714,7 +1714,7 @@
       "card_count": 26,
       "parent_set_code": "frf",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "ktk",
       "block": "Khans of Tarkir",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/frf.svg"
@@ -1730,7 +1730,7 @@
       "card_count": 1,
       "parent_set_code": "ltk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -1743,7 +1743,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -1756,7 +1756,7 @@
       "set_type": "promo",
       "card_count": 8,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -1770,7 +1770,7 @@
       "card_count": 1,
       "parent_set_code": "jvc",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dd2.svg"
     },
     {
@@ -1784,7 +1784,7 @@
       "card_count": 3,
       "parent_set_code": "dvd",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddc.svg"
     },
     {
@@ -1798,7 +1798,7 @@
       "card_count": 4,
       "parent_set_code": "gvl",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddd.svg"
     },
     {
@@ -1812,7 +1812,7 @@
       "set_type": "duel_deck",
       "card_count": 62,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dd1.svg"
     },
     {
@@ -1826,7 +1826,7 @@
       "set_type": "duel_deck",
       "card_count": 62,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddc.svg"
     },
     {
@@ -1840,7 +1840,7 @@
       "set_type": "duel_deck",
       "card_count": 62,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dd2.svg"
     },
     {
@@ -1854,7 +1854,7 @@
       "set_type": "duel_deck",
       "card_count": 63,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddd.svg"
     },
     {
@@ -1868,7 +1868,7 @@
       "card_count": 3,
       "parent_set_code": "evg",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dd1.svg"
     },
     {
@@ -1882,7 +1882,7 @@
       "card_count": 5,
       "parent_set_code": "c14",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c14.svg"
     },
     {
@@ -1896,7 +1896,7 @@
       "card_count": 36,
       "parent_set_code": "c14",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c14.svg"
     },
     {
@@ -1911,7 +1911,7 @@
       "set_type": "commander",
       "card_count": 337,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c14.svg"
     },
     {
@@ -1925,7 +1925,7 @@
       "card_count": 13,
       "parent_set_code": "ktk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ktk",
       "block": "Khans of Tarkir",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ktk.svg"
@@ -1942,7 +1942,7 @@
       "set_type": "expansion",
       "card_count": 269,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ktk",
       "block": "Khans of Tarkir",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ktk.svg"
@@ -1958,7 +1958,7 @@
       "card_count": 50,
       "parent_set_code": "ktk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ktk",
       "block": "Khans of Tarkir",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ktk.svg"
@@ -1974,7 +1974,7 @@
       "card_count": 1,
       "parent_set_code": "ddn",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -1988,7 +1988,7 @@
       "set_type": "duel_deck",
       "card_count": 81,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddn.svg"
     },
     {
@@ -2003,7 +2003,7 @@
       "set_type": "from_the_vault",
       "card_count": 15,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/v14.svg"
     },
     {
@@ -2017,7 +2017,7 @@
       "card_count": 14,
       "parent_set_code": "m15",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m15.svg"
     },
     {
@@ -2032,7 +2032,7 @@
       "set_type": "core",
       "card_count": 284,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m15.svg"
     },
     {
@@ -2046,7 +2046,7 @@
       "card_count": 6,
       "parent_set_code": "frf",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "block_code": "ktk",
       "block": "Khans of Tarkir",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
@@ -2062,7 +2062,7 @@
       "card_count": 6,
       "parent_set_code": "m15",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -2076,7 +2076,7 @@
       "card_count": 9,
       "parent_set_code": "m15",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m15.svg"
     },
     {
@@ -2090,7 +2090,7 @@
       "card_count": 2,
       "parent_set_code": "m15",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m15.svg"
     },
     {
@@ -2103,7 +2103,7 @@
       "set_type": "promo",
       "card_count": 6,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -2118,7 +2118,7 @@
       "set_type": "masters",
       "card_count": 325,
       "digital": true,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/vma.svg"
     },
     {
@@ -2132,7 +2132,7 @@
       "card_count": 9,
       "parent_set_code": "cns",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/cns.svg"
     },
     {
@@ -2146,7 +2146,7 @@
       "set_type": "conspiracy",
       "card_count": 210,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/cns.svg"
     },
     {
@@ -2160,7 +2160,7 @@
       "card_count": 4,
       "parent_set_code": "md1",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/md1.svg"
     },
     {
@@ -2174,7 +2174,7 @@
       "set_type": "box",
       "card_count": 26,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/md1.svg"
     },
     {
@@ -2188,7 +2188,7 @@
       "card_count": 15,
       "parent_set_code": "jou",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/jou.svg"
@@ -2205,7 +2205,7 @@
       "set_type": "expansion",
       "card_count": 165,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/jou.svg"
@@ -2221,7 +2221,7 @@
       "card_count": 9,
       "parent_set_code": "jou",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/jou.svg"
@@ -2237,7 +2237,7 @@
       "card_count": 6,
       "parent_set_code": "jou",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/jou.svg"
@@ -2253,7 +2253,7 @@
       "card_count": 9,
       "parent_set_code": "jou",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/jou.svg"
@@ -2269,7 +2269,7 @@
       "card_count": 1,
       "parent_set_code": "ddm",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddm.svg"
     },
     {
@@ -2284,7 +2284,7 @@
       "set_type": "duel_deck",
       "card_count": 88,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddm.svg"
     },
     {
@@ -2298,7 +2298,7 @@
       "card_count": 15,
       "parent_set_code": "bng",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/bng.svg"
@@ -2315,7 +2315,7 @@
       "set_type": "expansion",
       "card_count": 165,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/bng.svg"
@@ -2331,7 +2331,7 @@
       "card_count": 11,
       "parent_set_code": "bng",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/bng.svg"
@@ -2347,7 +2347,7 @@
       "card_count": 7,
       "parent_set_code": "bng",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/bng.svg"
@@ -2363,7 +2363,7 @@
       "card_count": 9,
       "parent_set_code": "bng",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/bng.svg"
@@ -2378,7 +2378,7 @@
       "set_type": "promo",
       "card_count": 2,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m15.svg"
     },
     {
@@ -2391,7 +2391,7 @@
       "set_type": "promo",
       "card_count": 3,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pidw.svg"
     },
     {
@@ -2405,7 +2405,7 @@
       "card_count": 4,
       "parent_set_code": "ltk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -2418,7 +2418,7 @@
       "set_type": "promo",
       "card_count": 14,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -2431,7 +2431,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -2445,7 +2445,7 @@
       "card_count": 15,
       "parent_set_code": "c13",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c13.svg"
     },
     {
@@ -2460,7 +2460,7 @@
       "set_type": "commander",
       "card_count": 356,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/c13.svg"
     },
     {
@@ -2474,7 +2474,7 @@
       "card_count": 15,
       "parent_set_code": "ths",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ths.svg"
@@ -2490,7 +2490,7 @@
       "card_count": 7,
       "parent_set_code": "ths",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ths.svg"
@@ -2506,7 +2506,7 @@
       "card_count": 11,
       "parent_set_code": "ths",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ths.svg"
@@ -2523,7 +2523,7 @@
       "set_type": "expansion",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ths.svg"
@@ -2539,7 +2539,7 @@
       "card_count": 10,
       "parent_set_code": "ths",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ths",
       "block": "Theros",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ths.svg"
@@ -2555,7 +2555,7 @@
       "card_count": 2,
       "parent_set_code": "ddl",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddl.svg"
     },
     {
@@ -2570,7 +2570,7 @@
       "set_type": "duel_deck",
       "card_count": 81,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddl.svg"
     },
     {
@@ -2585,7 +2585,7 @@
       "set_type": "from_the_vault",
       "card_count": 20,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/v13.svg"
     },
     {
@@ -2600,7 +2600,7 @@
       "set_type": "core",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m14.svg"
     },
     {
@@ -2614,7 +2614,7 @@
       "card_count": 13,
       "parent_set_code": "m14",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m14.svg"
     },
     {
@@ -2628,7 +2628,7 @@
       "card_count": 5,
       "parent_set_code": "m14",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m14.svg"
     },
     {
@@ -2641,7 +2641,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -2656,7 +2656,7 @@
       "set_type": "masters",
       "card_count": 229,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mma.svg"
     },
     {
@@ -2670,7 +2670,7 @@
       "card_count": 16,
       "parent_set_code": "mma",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mma.svg"
     },
     {
@@ -2685,7 +2685,7 @@
       "set_type": "expansion",
       "card_count": 156,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "rtr",
       "block": "Return to Ravnica",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dgm.svg"
@@ -2701,7 +2701,7 @@
       "card_count": 1,
       "parent_set_code": "dgm",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "rtr",
       "block": "Return to Ravnica",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dgm.svg"
@@ -2717,7 +2717,7 @@
       "card_count": 6,
       "parent_set_code": "dgm",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "rtr",
       "block": "Return to Ravnica",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dgm.svg"
@@ -2732,7 +2732,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -2746,7 +2746,7 @@
       "card_count": 1,
       "parent_set_code": "ddk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddk.svg"
     },
     {
@@ -2761,7 +2761,7 @@
       "set_type": "duel_deck",
       "card_count": 80,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddk.svg"
     },
     {
@@ -2776,7 +2776,7 @@
       "set_type": "expansion",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "rtr",
       "block": "Return to Ravnica",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/gtc.svg"
@@ -2792,7 +2792,7 @@
       "card_count": 8,
       "parent_set_code": "gtc",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "rtr",
       "block": "Return to Ravnica",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/gtc.svg"
@@ -2808,7 +2808,7 @@
       "card_count": 9,
       "parent_set_code": "gtc",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "rtr",
       "block": "Return to Ravnica",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/gtc.svg"
@@ -2823,7 +2823,7 @@
       "set_type": "promo",
       "card_count": 3,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m14.svg"
     },
     {
@@ -2836,7 +2836,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pidw.svg"
     },
     {
@@ -2850,7 +2850,7 @@
       "card_count": 4,
       "parent_set_code": "ltk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -2863,7 +2863,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -2876,7 +2876,7 @@
       "set_type": "promo",
       "card_count": 9,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -2890,7 +2890,7 @@
       "card_count": 10,
       "parent_set_code": "cm1",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/cm1.svg"
     },
     {
@@ -2904,7 +2904,7 @@
       "set_type": "commander",
       "card_count": 18,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/cm1.svg"
     },
     {
@@ -2919,7 +2919,7 @@
       "set_type": "expansion",
       "card_count": 274,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "rtr",
       "block": "Return to Ravnica",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/rtr.svg"
@@ -2935,7 +2935,7 @@
       "card_count": 10,
       "parent_set_code": "rtr",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "rtr",
       "block": "Return to Ravnica",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/rtr.svg"
@@ -2951,7 +2951,7 @@
       "card_count": 12,
       "parent_set_code": "rtr",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "rtr",
       "block": "Return to Ravnica",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/rtr.svg"
@@ -2967,7 +2967,7 @@
       "card_count": 1,
       "parent_set_code": "ddj",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddj.svg"
     },
     {
@@ -2982,7 +2982,7 @@
       "set_type": "duel_deck",
       "card_count": 90,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddj.svg"
     },
     {
@@ -2997,7 +2997,7 @@
       "set_type": "from_the_vault",
       "card_count": 15,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/v12.svg"
     },
     {
@@ -3011,7 +3011,7 @@
       "card_count": 11,
       "parent_set_code": "m13",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m13.svg"
     },
     {
@@ -3026,7 +3026,7 @@
       "set_type": "core",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m13.svg"
     },
     {
@@ -3040,7 +3040,7 @@
       "card_count": 5,
       "parent_set_code": "m13",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m13.svg"
     },
     {
@@ -3055,7 +3055,7 @@
       "set_type": "planechase",
       "card_count": 197,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pc2.svg"
     },
     {
@@ -3069,7 +3069,7 @@
       "card_count": 8,
       "parent_set_code": "avr",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "isd",
       "block": "Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/avr.svg"
@@ -3086,7 +3086,7 @@
       "set_type": "expansion",
       "card_count": 244,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "isd",
       "block": "Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/avr.svg"
@@ -3102,7 +3102,7 @@
       "card_count": 6,
       "parent_set_code": "avr",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/avr.svg"
     },
     {
@@ -3116,7 +3116,7 @@
       "card_count": 5,
       "parent_set_code": "avr",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "isd",
       "block": "Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/avr.svg"
@@ -3133,7 +3133,7 @@
       "set_type": "duel_deck",
       "card_count": 77,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddi.svg"
     },
     {
@@ -3147,7 +3147,7 @@
       "card_count": 2,
       "parent_set_code": "ddi",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddi.svg"
     },
     {
@@ -3162,7 +3162,7 @@
       "set_type": "expansion",
       "card_count": 158,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "isd",
       "block": "Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dka.svg"
@@ -3178,7 +3178,7 @@
       "card_count": 4,
       "parent_set_code": "dka",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "isd",
       "block": "Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dka.svg"
@@ -3194,7 +3194,7 @@
       "card_count": 5,
       "parent_set_code": "dka",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "isd",
       "block": "Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dka.svg"
@@ -3209,7 +3209,7 @@
       "set_type": "promo",
       "card_count": 9,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pidw.svg"
     },
     {
@@ -3222,7 +3222,7 @@
       "set_type": "promo",
       "card_count": 3,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -3235,7 +3235,7 @@
       "set_type": "promo",
       "card_count": 3,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m13.svg"
     },
     {
@@ -3248,7 +3248,7 @@
       "set_type": "token",
       "card_count": 0,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -3262,7 +3262,7 @@
       "card_count": 2,
       "parent_set_code": "ltk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -3275,7 +3275,7 @@
       "set_type": "promo",
       "card_count": 13,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -3288,7 +3288,7 @@
       "set_type": "promo",
       "card_count": 9,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -3303,7 +3303,7 @@
       "set_type": "premium_deck",
       "card_count": 30,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pd3.svg"
     },
     {
@@ -3318,7 +3318,7 @@
       "set_type": "expansion",
       "card_count": 264,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "isd",
       "block": "Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/isd.svg"
@@ -3334,7 +3334,7 @@
       "card_count": 13,
       "parent_set_code": "isd",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "isd",
       "block": "Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/isd.svg"
@@ -3350,7 +3350,7 @@
       "card_count": 5,
       "parent_set_code": "isd",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "isd",
       "block": "Innistrad",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/isd.svg"
@@ -3367,7 +3367,7 @@
       "set_type": "duel_deck",
       "card_count": 80,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddh.svg"
     },
     {
@@ -3381,7 +3381,7 @@
       "card_count": 2,
       "parent_set_code": "ddh",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddh.svg"
     },
     {
@@ -3396,7 +3396,7 @@
       "set_type": "from_the_vault",
       "card_count": 15,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/v11.svg"
     },
     {
@@ -3411,7 +3411,7 @@
       "set_type": "core",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m12.svg"
     },
     {
@@ -3425,7 +3425,7 @@
       "card_count": 7,
       "parent_set_code": "m12",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m12.svg"
     },
     {
@@ -3439,7 +3439,7 @@
       "card_count": 5,
       "parent_set_code": "m12",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m12.svg"
     },
     {
@@ -3453,7 +3453,7 @@
       "card_count": 15,
       "parent_set_code": "cmd",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/cmd.svg"
     },
     {
@@ -3467,7 +3467,7 @@
       "card_count": 5,
       "parent_set_code": "cmd",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/cmd.svg"
     },
     {
@@ -3482,7 +3482,7 @@
       "set_type": "commander",
       "card_count": 318,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/cmd.svg"
     },
     {
@@ -3497,7 +3497,7 @@
       "set_type": "duel_deck",
       "card_count": 88,
       "digital": true,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/td2.svg"
     },
     {
@@ -3511,7 +3511,7 @@
       "card_count": 5,
       "parent_set_code": "nph",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "som",
       "block": "Scars of Mirrodin",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/nph.svg"
@@ -3528,7 +3528,7 @@
       "set_type": "expansion",
       "card_count": 175,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "som",
       "block": "Scars of Mirrodin",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/nph.svg"
@@ -3544,7 +3544,7 @@
       "card_count": 6,
       "parent_set_code": "nph",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "som",
       "block": "Scars of Mirrodin",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/nph.svg"
@@ -3561,7 +3561,7 @@
       "set_type": "duel_deck",
       "card_count": 81,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddg.svg"
     },
     {
@@ -3575,7 +3575,7 @@
       "card_count": 1,
       "parent_set_code": "ddg",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddg.svg"
     },
     {
@@ -3590,7 +3590,7 @@
       "set_type": "expansion",
       "card_count": 155,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "som",
       "block": "Scars of Mirrodin",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mbs.svg"
@@ -3606,7 +3606,7 @@
       "card_count": 6,
       "parent_set_code": "mbs",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "som",
       "block": "Scars of Mirrodin",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mbs.svg"
@@ -3622,7 +3622,7 @@
       "card_count": 6,
       "parent_set_code": "mbs",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "som",
       "block": "Scars of Mirrodin",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mbs.svg"
@@ -3639,7 +3639,7 @@
       "set_type": "masters",
       "card_count": 269,
       "digital": true,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/me4.svg"
     },
     {
@@ -3652,7 +3652,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pmps.svg"
     },
     {
@@ -3665,7 +3665,7 @@
       "set_type": "promo",
       "card_count": 3,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pmtg2.svg"
     },
     {
@@ -3678,7 +3678,7 @@
       "set_type": "promo",
       "card_count": 14,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -3692,7 +3692,7 @@
       "set_type": "memorabilia",
       "card_count": 9,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pmei.svg"
     },
     {
@@ -3705,7 +3705,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -3718,7 +3718,7 @@
       "set_type": "promo",
       "card_count": 9,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -3731,7 +3731,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -3746,7 +3746,7 @@
       "set_type": "premium_deck",
       "card_count": 34,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pd2.svg"
     },
     {
@@ -3761,7 +3761,7 @@
       "set_type": "box",
       "card_count": 197,
       "digital": true,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/td0.svg"
     },
     {
@@ -3776,7 +3776,7 @@
       "set_type": "expansion",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "som",
       "block": "Scars of Mirrodin",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/som.svg"
@@ -3792,7 +3792,7 @@
       "card_count": 10,
       "parent_set_code": "som",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "som",
       "block": "Scars of Mirrodin",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/som.svg"
@@ -3808,7 +3808,7 @@
       "card_count": 5,
       "parent_set_code": "som",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "som",
       "block": "Scars of Mirrodin",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/som.svg"
@@ -3824,7 +3824,7 @@
       "card_count": 1,
       "parent_set_code": "ddf",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddf.svg"
     },
     {
@@ -3839,7 +3839,7 @@
       "set_type": "duel_deck",
       "card_count": 79,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddf.svg"
     },
     {
@@ -3854,7 +3854,7 @@
       "set_type": "from_the_vault",
       "card_count": 15,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/v10.svg"
     },
     {
@@ -3869,7 +3869,7 @@
       "set_type": "core",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m11.svg"
     },
     {
@@ -3883,7 +3883,7 @@
       "card_count": 6,
       "parent_set_code": "m11",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m11.svg"
     },
     {
@@ -3897,7 +3897,7 @@
       "card_count": 5,
       "parent_set_code": "m11",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m11.svg"
     },
     {
@@ -3911,7 +3911,7 @@
       "set_type": "archenemy",
       "card_count": 195,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/arc.svg"
     },
     {
@@ -3924,7 +3924,7 @@
       "set_type": "archenemy",
       "card_count": 5,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -3938,7 +3938,7 @@
       "set_type": "box",
       "card_count": 113,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dpa.svg"
     },
     {
@@ -3952,7 +3952,7 @@
       "card_count": 5,
       "parent_set_code": "roe",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "zen",
       "block": "Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/roe.svg"
@@ -3969,7 +3969,7 @@
       "set_type": "expansion",
       "card_count": 248,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "zen",
       "block": "Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/roe.svg"
@@ -3985,7 +3985,7 @@
       "card_count": 7,
       "parent_set_code": "roe",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "zen",
       "block": "Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/roe.svg"
@@ -4001,7 +4001,7 @@
       "card_count": 3,
       "parent_set_code": "dde",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dde.svg"
     },
     {
@@ -4016,7 +4016,7 @@
       "set_type": "duel_deck",
       "card_count": 71,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dde.svg"
     },
     {
@@ -4030,7 +4030,7 @@
       "card_count": 5,
       "parent_set_code": "wwk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "zen",
       "block": "Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/wwk.svg"
@@ -4046,7 +4046,7 @@
       "card_count": 6,
       "parent_set_code": "wwk",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "zen",
       "block": "Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/wwk.svg"
@@ -4063,7 +4063,7 @@
       "set_type": "expansion",
       "card_count": 145,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "zen",
       "block": "Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/wwk.svg"
@@ -4078,7 +4078,7 @@
       "set_type": "promo",
       "card_count": 2,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pmtg2.svg"
     },
     {
@@ -4091,7 +4091,7 @@
       "set_type": "promo",
       "card_count": 10,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -4104,7 +4104,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pmps.svg"
     },
     {
@@ -4117,7 +4117,7 @@
       "set_type": "promo",
       "card_count": 9,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -4130,7 +4130,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -4143,7 +4143,7 @@
       "set_type": "promo",
       "card_count": 8,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -4158,7 +4158,7 @@
       "set_type": "premium_deck",
       "card_count": 41,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/h09.svg"
     },
     {
@@ -4173,7 +4173,7 @@
       "set_type": "duel_deck",
       "card_count": 63,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddd.svg"
     },
     {
@@ -4187,7 +4187,7 @@
       "card_count": 3,
       "parent_set_code": "ddd",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddd.svg"
     },
     {
@@ -4201,7 +4201,7 @@
       "card_count": 5,
       "parent_set_code": "zen",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "zen",
       "block": "Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/zen.svg"
@@ -4218,7 +4218,7 @@
       "set_type": "expansion",
       "card_count": 269,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "zen",
       "block": "Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/zen.svg"
@@ -4234,7 +4234,7 @@
       "card_count": 11,
       "parent_set_code": "zen",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "zen",
       "block": "Zendikar",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/zen.svg"
@@ -4251,7 +4251,7 @@
       "set_type": "masters",
       "card_count": 230,
       "digital": true,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/me3.svg"
     },
     {
@@ -4266,7 +4266,7 @@
       "set_type": "planechase",
       "card_count": 209,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/hop.svg"
     },
     {
@@ -4279,7 +4279,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -4294,7 +4294,7 @@
       "set_type": "from_the_vault",
       "card_count": 15,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/v09.svg"
     },
     {
@@ -4308,7 +4308,7 @@
       "card_count": 8,
       "parent_set_code": "m10",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m10.svg"
     },
     {
@@ -4323,7 +4323,7 @@
       "set_type": "core",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m10.svg"
     },
     {
@@ -4337,7 +4337,7 @@
       "card_count": 5,
       "parent_set_code": "m10",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/m10.svg"
     },
     {
@@ -4352,7 +4352,7 @@
       "set_type": "expansion",
       "card_count": 145,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ala",
       "block": "Alara",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/arb.svg"
@@ -4368,7 +4368,7 @@
       "card_count": 4,
       "parent_set_code": "arb",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ala",
       "block": "Alara",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/arb.svg"
@@ -4384,7 +4384,7 @@
       "card_count": 3,
       "parent_set_code": "ddc",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddc.svg"
     },
     {
@@ -4399,7 +4399,7 @@
       "set_type": "duel_deck",
       "card_count": 62,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ddc.svg"
     },
     {
@@ -4412,7 +4412,7 @@
       "set_type": "promo",
       "card_count": 8,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -4426,7 +4426,7 @@
       "card_count": 2,
       "parent_set_code": "con",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ala",
       "block": "Alara",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/con.svg"
@@ -4443,7 +4443,7 @@
       "set_type": "expansion",
       "card_count": 145,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ala",
       "block": "Alara",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/con.svg"
@@ -4458,7 +4458,7 @@
       "set_type": "promo",
       "card_count": 1,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pbook.svg"
     },
     {
@@ -4471,7 +4471,7 @@
       "set_type": "promo",
       "card_count": 8,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -4484,7 +4484,7 @@
       "set_type": "promo",
       "card_count": 1,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pxbox.svg"
     },
     {
@@ -4497,7 +4497,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pmps.svg"
     },
     {
@@ -4510,7 +4510,7 @@
       "set_type": "promo",
       "card_count": 10,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -4523,7 +4523,7 @@
       "set_type": "promo",
       "card_count": 9,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -4536,7 +4536,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -4550,7 +4550,7 @@
       "card_count": 1,
       "parent_set_code": "dd2",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dd2.svg"
     },
     {
@@ -4565,7 +4565,7 @@
       "set_type": "duel_deck",
       "card_count": 62,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dd2.svg"
     },
     {
@@ -4579,7 +4579,7 @@
       "card_count": 2,
       "parent_set_code": "dd2",
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dd2.svg"
     },
     {
@@ -4594,7 +4594,7 @@
       "set_type": "expansion",
       "card_count": 249,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ala",
       "block": "Alara",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ala.svg"
@@ -4610,7 +4610,7 @@
       "card_count": 10,
       "parent_set_code": "ala",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ala",
       "block": "Alara",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ala.svg"
@@ -4625,7 +4625,7 @@
       "set_type": "promo",
       "card_count": 2,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -4640,7 +4640,7 @@
       "set_type": "masters",
       "card_count": 245,
       "digital": true,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/me2.svg"
     },
     {
@@ -4655,7 +4655,7 @@
       "set_type": "from_the_vault",
       "card_count": 15,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/drb.svg"
     },
     {
@@ -4670,7 +4670,7 @@
       "set_type": "expansion",
       "card_count": 180,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "shm",
       "block": "Shadowmoor",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/eve.svg"
@@ -4686,7 +4686,7 @@
       "card_count": 7,
       "parent_set_code": "eve",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "shm",
       "block": "Shadowmoor",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/eve.svg"
@@ -4702,7 +4702,7 @@
       "card_count": 12,
       "parent_set_code": "shm",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "shm",
       "block": "Shadowmoor",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/shm.svg"
@@ -4719,7 +4719,7 @@
       "set_type": "expansion",
       "card_count": 301,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "shm",
       "block": "Shadowmoor",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/shm.svg"
@@ -4734,7 +4734,7 @@
       "set_type": "promo",
       "card_count": 2,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -4748,7 +4748,7 @@
       "card_count": 3,
       "parent_set_code": "mor",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "lrw",
       "block": "Lorwyn",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mor.svg"
@@ -4763,7 +4763,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -4778,7 +4778,7 @@
       "set_type": "expansion",
       "card_count": 150,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "lrw",
       "block": "Lorwyn",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mor.svg"
@@ -4793,7 +4793,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pmps.svg"
     },
     {
@@ -4806,7 +4806,7 @@
       "set_type": "promo",
       "card_count": 8,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -4819,7 +4819,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -4832,7 +4832,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -4845,7 +4845,7 @@
       "set_type": "promo",
       "card_count": 7,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -4860,7 +4860,7 @@
       "set_type": "duel_deck",
       "card_count": 62,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dd1.svg"
     },
     {
@@ -4875,7 +4875,7 @@
       "set_type": "expansion",
       "card_count": 301,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "lrw",
       "block": "Lorwyn",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/lrw.svg"
@@ -4891,7 +4891,7 @@
       "card_count": 11,
       "parent_set_code": "lrw",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "lrw",
       "block": "Lorwyn",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/lrw.svg"
@@ -4908,7 +4908,7 @@
       "set_type": "masters",
       "card_count": 195,
       "digital": true,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/med.svg"
     },
     {
@@ -4921,7 +4921,7 @@
       "set_type": "promo",
       "card_count": 2,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/psum.svg"
     },
     {
@@ -4936,7 +4936,7 @@
       "set_type": "core",
       "card_count": 507,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/10e.svg"
     },
     {
@@ -4950,7 +4950,7 @@
       "card_count": 1,
       "parent_set_code": "10e",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/10e.svg"
     },
     {
@@ -4964,7 +4964,7 @@
       "card_count": 6,
       "parent_set_code": "10e",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/10e.svg"
     },
     {
@@ -4979,7 +4979,7 @@
       "set_type": "expansion",
       "card_count": 180,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "tsp",
       "block": "Time Spiral",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/fut.svg"
@@ -4994,7 +4994,7 @@
       "set_type": "promo",
       "card_count": 14,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -5007,7 +5007,7 @@
       "set_type": "promo",
       "card_count": 9,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -5022,7 +5022,7 @@
       "set_type": "expansion",
       "card_count": 165,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "tsp",
       "block": "Time Spiral",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/plc.svg"
@@ -5037,7 +5037,7 @@
       "set_type": "promo",
       "card_count": 17,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -5050,7 +5050,7 @@
       "set_type": "promo",
       "card_count": 9,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5063,7 +5063,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pmps.svg"
     },
     {
@@ -5076,7 +5076,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5089,7 +5089,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5102,7 +5102,7 @@
       "set_type": "promo",
       "card_count": 7,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -5116,7 +5116,7 @@
       "set_type": "funny",
       "card_count": 12,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/star.svg"
     },
     {
@@ -5131,7 +5131,7 @@
       "set_type": "expansion",
       "card_count": 301,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "tsp",
       "block": "Time Spiral",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/tsp.svg"
@@ -5148,7 +5148,7 @@
       "card_count": 121,
       "parent_set_code": "tsp",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "tsp",
       "block": "Time Spiral",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/tsp.svg"
@@ -5164,7 +5164,7 @@
       "card_count": 1,
       "parent_set_code": "csp",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ice",
       "block": "Ice Age",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/csp.svg"
@@ -5180,7 +5180,7 @@
       "card_count": 62,
       "parent_set_code": "csp",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ice",
       "block": "Ice Age",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
@@ -5197,7 +5197,7 @@
       "set_type": "expansion",
       "card_count": 155,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ice",
       "block": "Ice Age",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/csp.svg"
@@ -5214,7 +5214,7 @@
       "set_type": "expansion",
       "card_count": 180,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "rav",
       "block": "Ravnica",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dis.svg"
@@ -5229,7 +5229,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -5244,7 +5244,7 @@
       "set_type": "expansion",
       "card_count": 165,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "rav",
       "block": "Ravnica",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/gpt.svg"
@@ -5259,7 +5259,7 @@
       "set_type": "promo",
       "card_count": 9,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/parl.svg"
     },
     {
@@ -5272,7 +5272,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pmtg2.svg"
     },
     {
@@ -5285,7 +5285,7 @@
       "set_type": "promo",
       "card_count": 6,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5298,7 +5298,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5311,7 +5311,7 @@
       "set_type": "promo",
       "card_count": 4,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5324,7 +5324,7 @@
       "set_type": "box",
       "card_count": 60,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/psalvat05.svg"
     },
     {
@@ -5337,7 +5337,7 @@
       "set_type": "promo",
       "card_count": 7,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5350,7 +5350,7 @@
       "set_type": "promo",
       "card_count": 3,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5363,7 +5363,7 @@
       "set_type": "promo",
       "card_count": 1,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5378,7 +5378,7 @@
       "set_type": "expansion",
       "card_count": 306,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "rav",
       "block": "Ravnica",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/rav.svg"
@@ -5395,7 +5395,7 @@
       "set_type": "core",
       "card_count": 359,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/9ed.svg"
     },
     {
@@ -5410,7 +5410,7 @@
       "set_type": "expansion",
       "card_count": 165,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "chk",
       "block": "Kamigawa",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/sok.svg"
@@ -5427,7 +5427,7 @@
       "set_type": "expansion",
       "card_count": 165,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "chk",
       "block": "Kamigawa",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/bok.svg"
@@ -5442,7 +5442,7 @@
       "set_type": "promo",
       "card_count": 8,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/parl.svg"
     },
     {
@@ -5455,7 +5455,7 @@
       "set_type": "promo",
       "card_count": 20,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/rav.svg"
     },
     {
@@ -5468,7 +5468,7 @@
       "set_type": "promo",
       "card_count": 8,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5481,7 +5481,7 @@
       "set_type": "promo",
       "card_count": 4,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5494,7 +5494,7 @@
       "set_type": "promo",
       "card_count": 6,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5507,7 +5507,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5521,7 +5521,7 @@
       "set_type": "funny",
       "card_count": 168,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/unh.svg"
     },
     {
@@ -5536,7 +5536,7 @@
       "set_type": "expansion",
       "card_count": 307,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "chk",
       "block": "Kamigawa",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/chk.svg"
@@ -5552,7 +5552,7 @@
       "set_type": "memorabilia",
       "card_count": 0,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -5567,7 +5567,7 @@
       "set_type": "expansion",
       "card_count": 165,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "mrd",
       "block": "Mirrodin",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/5dn.svg"
@@ -5584,7 +5584,7 @@
       "set_type": "expansion",
       "card_count": 165,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "mrd",
       "block": "Mirrodin",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dst.svg"
@@ -5599,7 +5599,7 @@
       "set_type": "promo",
       "card_count": 14,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/parl.svg"
     },
     {
@@ -5612,7 +5612,7 @@
       "set_type": "promo",
       "card_count": 6,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5625,7 +5625,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5638,7 +5638,7 @@
       "set_type": "promo",
       "card_count": 6,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5653,7 +5653,7 @@
       "set_type": "expansion",
       "card_count": 306,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "mrd",
       "block": "Mirrodin",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mrd.svg"
@@ -5669,7 +5669,7 @@
       "set_type": "memorabilia",
       "card_count": 0,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -5684,7 +5684,7 @@
       "set_type": "core",
       "card_count": 357,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/8ed.svg"
     },
     {
@@ -5697,7 +5697,7 @@
       "set_type": "promo",
       "card_count": 13,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -5712,7 +5712,7 @@
       "set_type": "expansion",
       "card_count": 143,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ons",
       "block": "Onslaught",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/scg.svg"
@@ -5729,7 +5729,7 @@
       "set_type": "expansion",
       "card_count": 145,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ons",
       "block": "Onslaught",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/lgn.svg"
@@ -5744,7 +5744,7 @@
       "set_type": "promo",
       "card_count": 8,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/parl.svg"
     },
     {
@@ -5757,7 +5757,7 @@
       "set_type": "promo",
       "card_count": 3,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5771,7 +5771,7 @@
       "set_type": "memorabilia",
       "card_count": 18,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pmei.svg"
     },
     {
@@ -5784,7 +5784,7 @@
       "set_type": "promo",
       "card_count": 7,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5797,7 +5797,7 @@
       "set_type": "promo",
       "card_count": 13,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5812,7 +5812,7 @@
       "set_type": "expansion",
       "card_count": 350,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ons",
       "block": "Onslaught",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ons.svg"
@@ -5828,7 +5828,7 @@
       "set_type": "memorabilia",
       "card_count": 0,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -5842,7 +5842,7 @@
       "set_type": "promo",
       "card_count": 1175,
       "digital": true,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mtgo.svg"
     },
     {
@@ -5857,7 +5857,7 @@
       "set_type": "expansion",
       "card_count": 143,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ody",
       "block": "Odyssey",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/jud.svg"
@@ -5874,7 +5874,7 @@
       "set_type": "expansion",
       "card_count": 143,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ody",
       "block": "Odyssey",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/tor.svg"
@@ -5889,7 +5889,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/parl.svg"
     },
     {
@@ -5902,7 +5902,7 @@
       "set_type": "promo",
       "card_count": 8,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5915,7 +5915,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5928,7 +5928,7 @@
       "set_type": "promo",
       "card_count": 2,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -5942,7 +5942,7 @@
       "set_type": "box",
       "card_count": 58,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dkm.svg"
     },
     {
@@ -5957,7 +5957,7 @@
       "set_type": "expansion",
       "card_count": 350,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ody",
       "block": "Odyssey",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ody.svg"
@@ -5973,7 +5973,7 @@
       "set_type": "memorabilia",
       "card_count": 0,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -5988,7 +5988,7 @@
       "set_type": "expansion",
       "card_count": 143,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "inv",
       "block": "Invasion",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/apc.svg"
@@ -6005,7 +6005,7 @@
       "set_type": "core",
       "card_count": 350,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/7ed.svg"
     },
     {
@@ -6020,7 +6020,7 @@
       "set_type": "expansion",
       "card_count": 146,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "inv",
       "block": "Invasion",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pls.svg"
@@ -6035,7 +6035,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/parl2.svg"
     },
     {
@@ -6048,7 +6048,7 @@
       "set_type": "promo",
       "card_count": 7,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -6061,7 +6061,7 @@
       "set_type": "promo",
       "card_count": 2,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -6074,7 +6074,7 @@
       "set_type": "promo",
       "card_count": 8,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -6089,7 +6089,7 @@
       "set_type": "expansion",
       "card_count": 350,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "inv",
       "block": "Invasion",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/inv.svg"
@@ -6105,7 +6105,7 @@
       "set_type": "box",
       "card_count": 90,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/btd.svg"
     },
     {
@@ -6119,7 +6119,7 @@
       "set_type": "memorabilia",
       "card_count": 106,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6134,7 +6134,7 @@
       "set_type": "expansion",
       "card_count": 143,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "mmq",
       "block": "Masques",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pcy.svg"
@@ -6150,7 +6150,7 @@
       "set_type": "starter",
       "card_count": 58,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/s00.svg"
     },
     {
@@ -6165,7 +6165,7 @@
       "set_type": "expansion",
       "card_count": 143,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "mmq",
       "block": "Masques",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/nem.svg"
@@ -6180,7 +6180,7 @@
       "set_type": "promo",
       "card_count": 15,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6193,7 +6193,7 @@
       "set_type": "promo",
       "card_count": 12,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6206,7 +6206,7 @@
       "set_type": "promo",
       "card_count": 2,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -6219,7 +6219,7 @@
       "set_type": "promo",
       "card_count": 11,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6232,7 +6232,7 @@
       "set_type": "promo",
       "card_count": 18,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/dci.svg"
     },
     {
@@ -6246,7 +6246,7 @@
       "set_type": "box",
       "card_count": 136,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/brb.svg"
     },
     {
@@ -6261,7 +6261,7 @@
       "set_type": "expansion",
       "card_count": 350,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "mmq",
       "block": "Masques",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mmq.svg"
@@ -6276,7 +6276,7 @@
       "set_type": "promo",
       "card_count": 1,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6289,7 +6289,7 @@
       "set_type": "promo",
       "card_count": 1,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6303,7 +6303,7 @@
       "set_type": "expansion",
       "card_count": 0,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6316,7 +6316,7 @@
       "set_type": "promo",
       "card_count": 5,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pgru.svg"
     },
     {
@@ -6330,7 +6330,7 @@
       "set_type": "starter",
       "card_count": 173,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/s99.svg"
     },
     {
@@ -6345,7 +6345,7 @@
       "set_type": "expansion",
       "card_count": 143,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "usg",
       "block": "Urza",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/uds.svg"
@@ -6361,7 +6361,7 @@
       "set_type": "starter",
       "card_count": 180,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ptk.svg"
     },
     {
@@ -6375,7 +6375,7 @@
       "set_type": "core",
       "card_count": 350,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/6ed.svg"
     },
     {
@@ -6390,7 +6390,7 @@
       "set_type": "expansion",
       "card_count": 143,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "usg",
       "block": "Urza",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ulg.svg"
@@ -6405,7 +6405,7 @@
       "set_type": "promo",
       "card_count": 8,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/usg.svg"
     },
     {
@@ -6418,7 +6418,7 @@
       "set_type": "promo",
       "card_count": 1,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6432,7 +6432,7 @@
       "set_type": "box",
       "card_count": 85,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ath.svg"
     },
     {
@@ -6447,7 +6447,7 @@
       "set_type": "expansion",
       "card_count": 350,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "usg",
       "block": "Urza",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/usg.svg"
@@ -6462,7 +6462,7 @@
       "set_type": "promo",
       "card_count": 15,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6476,7 +6476,7 @@
       "set_type": "memorabilia",
       "card_count": 0,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6490,7 +6490,7 @@
       "card_count": 6,
       "parent_set_code": "ugl",
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6504,7 +6504,7 @@
       "set_type": "funny",
       "card_count": 88,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ugl.svg"
     },
     {
@@ -6519,7 +6519,7 @@
       "set_type": "expansion",
       "card_count": 143,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "tmp",
       "block": "Tempest",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/exo.svg"
@@ -6535,7 +6535,7 @@
       "set_type": "starter",
       "card_count": 165,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/p02.svg"
     },
     {
@@ -6550,7 +6550,7 @@
       "set_type": "expansion",
       "card_count": 143,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "tmp",
       "block": "Tempest",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/sth.svg"
@@ -6565,7 +6565,7 @@
       "set_type": "promo",
       "card_count": 3,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6580,7 +6580,7 @@
       "set_type": "expansion",
       "card_count": 350,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "tmp",
       "block": "Tempest",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/tmp.svg"
@@ -6595,7 +6595,7 @@
       "set_type": "promo",
       "card_count": 40,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6609,7 +6609,7 @@
       "set_type": "memorabilia",
       "card_count": 0,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6624,7 +6624,7 @@
       "set_type": "expansion",
       "card_count": 167,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "mir",
       "block": "Mirage",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/wth.svg"
@@ -6639,7 +6639,7 @@
       "set_type": "vanguard",
       "card_count": 32,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6652,7 +6652,7 @@
       "set_type": "promo",
       "card_count": 6,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/por.svg"
     },
     {
@@ -6666,7 +6666,7 @@
       "set_type": "starter",
       "card_count": 222,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/por.svg"
     },
     {
@@ -6680,7 +6680,7 @@
       "set_type": "core",
       "card_count": 449,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/5ed.svg"
     },
     {
@@ -6695,7 +6695,7 @@
       "set_type": "expansion",
       "card_count": 167,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "mir",
       "block": "Mirage",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/vis.svg"
@@ -6711,7 +6711,7 @@
       "set_type": "starter",
       "card_count": 57,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6725,7 +6725,7 @@
       "set_type": "box",
       "card_count": 10,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6740,7 +6740,7 @@
       "set_type": "expansion",
       "card_count": 350,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "mir",
       "block": "Mirage",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/mir.svg"
@@ -6755,7 +6755,7 @@
       "set_type": "funny",
       "card_count": 7,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6768,7 +6768,7 @@
       "set_type": "promo",
       "card_count": 7,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/parl.svg"
     },
     {
@@ -6782,7 +6782,7 @@
       "set_type": "box",
       "card_count": 54,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6796,7 +6796,7 @@
       "set_type": "expansion",
       "card_count": 199,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ice",
       "block": "Ice Age",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/all.svg"
@@ -6812,7 +6812,7 @@
       "set_type": "memorabilia",
       "card_count": 147,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6826,7 +6826,7 @@
       "set_type": "expansion",
       "card_count": 140,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/hml.svg"
     },
     {
@@ -6840,7 +6840,7 @@
       "set_type": "masters",
       "card_count": 125,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/chr.svg"
     },
     {
@@ -6854,7 +6854,7 @@
       "set_type": "expansion",
       "card_count": 383,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "block_code": "ice",
       "block": "Ice Age",
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ice.svg"
@@ -6870,7 +6870,7 @@
       "set_type": "core",
       "card_count": 378,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/4ed.svg"
     },
     {
@@ -6883,7 +6883,7 @@
       "set_type": "promo",
       "card_count": 8,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pmei.svg"
     },
     {
@@ -6896,7 +6896,7 @@
       "set_type": "promo",
       "card_count": 2,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/default.svg"
     },
     {
@@ -6910,7 +6910,7 @@
       "set_type": "expansion",
       "card_count": 187,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/fem.svg"
     },
     {
@@ -6924,7 +6924,7 @@
       "set_type": "expansion",
       "card_count": 119,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/drk.svg"
     },
     {
@@ -6938,7 +6938,7 @@
       "set_type": "core",
       "card_count": 306,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/3ed.svg"
     },
     {
@@ -6952,7 +6952,7 @@
       "set_type": "expansion",
       "card_count": 310,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/leg.svg"
     },
     {
@@ -6966,7 +6966,7 @@
       "set_type": "core",
       "card_count": 306,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/3ed.svg"
     },
     {
@@ -6980,7 +6980,7 @@
       "set_type": "expansion",
       "card_count": 100,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/atq.svg"
     },
     {
@@ -6993,7 +6993,7 @@
       "set_type": "starter",
       "card_count": 1,
       "digital": false,
-      "foil": true,
+      "foil_only": true,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pdrc.svg"
     },
     {
@@ -7006,7 +7006,7 @@
       "set_type": "starter",
       "card_count": 5,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/pbook.svg"
     },
     {
@@ -7020,7 +7020,7 @@
       "set_type": "memorabilia",
       "card_count": 302,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/cei.svg"
     },
     {
@@ -7034,7 +7034,7 @@
       "set_type": "memorabilia",
       "card_count": 302,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/ced.svg"
     },
     {
@@ -7048,7 +7048,7 @@
       "set_type": "core",
       "card_count": 302,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/2ed.svg"
     },
     {
@@ -7062,7 +7062,7 @@
       "set_type": "expansion",
       "card_count": 92,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/arn.svg"
     },
     {
@@ -7076,7 +7076,7 @@
       "set_type": "core",
       "card_count": 302,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/leb.svg"
     },
     {
@@ -7090,7 +7090,7 @@
       "set_type": "core",
       "card_count": 295,
       "digital": false,
-      "foil": false,
+      "foil_only": false,
       "icon_svg_uri": "https://assets.scryfall.com/assets/sets/lea.svg"
     }
   ]
