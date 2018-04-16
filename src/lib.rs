@@ -14,7 +14,7 @@ const SCRYFALL_API: &str = "https://api.scryfall.com";
 /// Number of milliseconds between each call, at a minimum
 const SCRYFALL_DEFAULT_WAIT: i32 = 50;
 
-struct ScryfallApi {
+pub struct ScryfallApi {
     base_url: String,
     last_request: Option<chrono::DateTime<chrono::Utc>>,
 }
@@ -42,12 +42,12 @@ impl ScryfallApi {
     }
 }
 
-trait ScryfallRequest {
+pub trait ScryfallRequest {
     type Response: ScryfallResponse;
     fn path(&self) -> String;
 }
 
-trait ScryfallResponse {
+pub trait ScryfallResponse {
     fn parse(raw: &str) -> Self;
 }
 
