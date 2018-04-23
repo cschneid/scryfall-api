@@ -4,6 +4,7 @@ extern crate serde;
 extern crate serde_json;
 #[macro_use]
 extern crate serde_derive;
+extern crate url;
 
 mod requests;
 mod types;
@@ -105,6 +106,18 @@ mod tests {
         let a = ScryfallApi::new();
         match a.run(requests::CardAutoComplete("thal".to_string())) {
             Ok(catalog) => assert!(catalog.data.contains(&"Thalia, Heretic Cathar".to_string())),
+            Err(e) => panic!("Failed to fetch: {:?}", e),
+        }
+    }
+
+    #[test]
+    fn card_search() {
+        let a = ScryfallApi::new();
+        match a.run(requests::CardSearch(
+            "c:r pow=3".to_string().into(),
+            Default::default(),
+        )) {
+            Ok(catalog) => println!("Worked"),
             Err(e) => panic!("Failed to fetch: {:?}", e),
         }
     }

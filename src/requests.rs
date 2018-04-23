@@ -11,7 +11,8 @@ pub struct Set(pub SetCode);
 #[derive(Debug)]
 pub struct Cards; // The entire database
 
-pub struct CardSearch(CardSearchFields);
+#[derive(Debug)]
+pub struct CardSearch(pub CardSearchQuery, pub CardSearchOptions);
 
 #[derive(Debug)]
 pub struct CardNamed(pub String, pub Exact);
@@ -50,11 +51,25 @@ pub struct CatalogWatermarks;
 //  Helper Structs  //
 //////////////////////
 
-struct CardSearchFields {
+#[derive(Debug)]
+pub struct CardSearchOptions {
     uniqueness: SearchUniquenessMode,
     ordering: SearchOrdering,
     ordering_direction: SearchOrderingDirection,
 }
+
+impl Default for CardSearchOptions {
+    fn default() -> CardSearchOptions {
+        CardSearchOptions {
+            uniqueness: SearchUniquenessMode::Cards,
+            ordering: SearchOrdering::Name,
+            ordering_direction: SearchOrderingDirection::Auto,
+        }
+    }
+}
+
+#[derive(Debug)]
+pub struct CardSearchQuery(String);
 
 #[derive(Debug)]
 pub enum Exact {
@@ -62,7 +77,8 @@ pub enum Exact {
     Fuzzy,
 }
 
-enum SearchUniquenessMode {
+#[derive(Debug)]
+pub enum SearchUniquenessMode {
     /// One copy of each card name (no matter how many printings)
     Cards,
     /// One copy for each art
@@ -71,7 +87,8 @@ enum SearchUniquenessMode {
     Prints,
 }
 
-enum SearchOrdering {
+#[derive(Debug)]
+pub enum SearchOrdering {
     /// Sort cards by name, A → Z (default)
     Name,
     /// Sort cards by their set and collector number: oldest → newest
@@ -98,7 +115,8 @@ enum SearchOrdering {
     Artist,
 }
 
-enum SearchOrderingDirection {
+#[derive(Debug)]
+pub enum SearchOrderingDirection {
     /// Scryfall will automatically choose the most inuitive direction to sort
     Auto,
     /// Sort ascending (the direction of the arrows in the previous table)
@@ -151,5 +169,25 @@ impl ScryfallRequest for CardAutoComplete {
 
     fn path(&self) -> String {
         format!("/cards/autocomplete?q={}", self.0)
+    }
+}
+
+impl ScryfallRequest for CardSearch {
+    type Response = types::ListObject<Card>;
+
+    fn path(&self) -> String {
+        use url::percent_encoding::{utf8_percent_encode, DEFAULT_ENCODE_SET};
+
+        let search = &(self.0).0;
+        let encoded_search = utf8_percent_encode(&search, DEFAULT_ENCODE_SET).to_string();
+
+        println!("Encoded Search is: {}", encoded_search);
+        format!("/cards/search?q={}", encoded_search)
+    }
+}
+
+impl From<String> for CardSearchQuery {
+    fn from(s: String) -> CardSearchQuery {
+        CardSearchQuery(s)
     }
 }

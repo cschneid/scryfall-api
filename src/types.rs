@@ -78,11 +78,11 @@ pub struct Card {
     ///Decimal		The card’s converted mana cost. Note that some funny cards have fractional mana costs.
     pub cmc: f64,
     ///String		The type line of this card.
-    pub type_line: String,
+    pub type_line: Option<String>,
     ///String	Nullable The Oracle text for this card, if any.
     pub oracle_text: Option<String>,
     ///String		The mana cost for this card. This value will be any empty string "" if the cost is absent. Remember that per the game rules, a missing mana cost and a mana cost of {0} are different values.
-    pub mana_cost: String,
+    pub mana_cost: Option<String>,
     ///String	Nullable This card’s power, if any. Note that some cards have powers that are not numeric, such as *.
     pub power: Option<String>,
     ///String	Nullable This card’s toughness, if any. Note that some cards have toughnesses that are not numeric, such as *.
@@ -94,15 +94,18 @@ pub struct Card {
     ///String	Nullable This card’s hand modifier, if it is Vanguard card. This value will contain a delta, such as -1.
     pub hand_modifier: Option<String>,
     ///Colors		This card’s colors.
-    pub colors: Colors,
+    pub colors: Option<Colors>,
     ///Colors	Nullable The colors in this card’s color indicator, if any. A null value for this field indicates the card does not have one.
     pub color_indicator: Option<Colors>,
     ///Colors		This card’s color identity.
     pub color_identity: Colors,
+
     ///Array	Nullable If this card is closely related to other cards, this property will be an array with.
-    pub all_parts: Option<Vec<String>>,
+    // pub all_parts: Option<Vec<RelatedCard>>,
+
     ///Array	Nullable An array of Card Face objects, if this card is multifaced.
-    pub card_faces: Option<Vec<String>>,
+    // pub card_faces: Option<Vec<String>>,
+
     ///Object		An object describing the legality of this card.
     pub legalities: Legalities,
     ///Boolean		True if this card is on the Reserved List.
@@ -153,20 +156,30 @@ pub struct Card {
     pub colorshifted: bool,
     ///Boolean		True if this card is from the future.
     pub futureshifted: bool,
-    // CardFaces
+}
 
-    // name: String, //String		The name of this particular face.
-    // type_line: String, //String		The type line of this particular face.
-    // oracle_text: Option<String>, //String	Nullable The Oracle text for this face, if any.
-    // mana_cost: String, //String		The mana cost for this face. This value will be any empty string "" if the cost is absent. Remember that per the game rules, a missing mana cost and a mana cost of {0} are different values.
-    // colors: Colors, //Colors		This face’s colors.
-    // color_indicator //Colors	Nullable The colors in this face’s color indicator, if any.
-    // power //String	Nullable This face’s power, if any. Note that some cards have powers that are not numeric, such as *.
-    // toughness //String	Nullable This face’s toughness, if any.
-    // loyalty //String	Nullable This face’s loyalty, if any.
-    // flavor_text //String	Nullable The flavor text printed on this face, if any.
-    // illustration_id //UUID	Nullable A unique identifier for the card face artwork that remains consistent across reprints. Newly spoiled cards may not have this field yet.
-    // image_uris //Object	Nullable An object providing URIs to imagery for this face, if this is a double-sided card. If this card is not double-sided, then the image_uris property will be part of the parent object instead.
+/// TODO
+struct CardFace {
+// CardFaces
+// name: String, //String		The name of this particular face.
+// type_line: String, //String		The type line of this particular face.
+// oracle_text: Option<String>, //String	Nullable The Oracle text for this face, if any.
+// mana_cost: String, //String		The mana cost for this face. This value will be any empty string "" if the cost is absent. Remember that per the game rules, a missing mana cost and a mana cost of {0} are different values.
+// colors: Colors, //Colors		This face’s colors.
+// color_indicator //Colors	Nullable The colors in this face’s color indicator, if any.
+// power //String	Nullable This face’s power, if any. Note that some cards have powers that are not numeric, such as *.
+// toughness //String	Nullable This face’s toughness, if any.
+// loyalty //String	Nullable This face’s loyalty, if any.
+// flavor_text //String	Nullable The flavor text printed on this face, if any.
+// illustration_id //UUID	Nullable A unique identifier for the card face artwork that remains consistent across reprints. Newly spoiled cards may not have this field yet.
+// image_uris //Object	Nullable An object providing URIs to imagery for this face, if this is a double-sided card. If this card is not double-sided, then the image_uris property will be part of the parent object instead.
+}
+
+struct RelatedCard {
+    //   "object": "related_card",
+    //   "id": "2d33c84b-3807-430e-8315-5de2d7f6fa32",
+    //   "name": "Garbage Elemental",
+    //   "uri": "https://api.scryfall.com/cards/ust/82a"
 }
 
 pub enum ImageVersion {
@@ -244,6 +257,12 @@ mod tests {
     fn list_object_parse() {
         let json = include_str!("../testcases/list_object_sets.json");
         let _list: ListObject<Set> = serde_json::from_str(json).expect("Parse ListObject<Set>");
+    }
+
+    #[test]
+    fn list_object_card_search_result_parse() {
+        let json = include_str!("../testcases/card_search_result.json");
+        let _list: ListObject<Card> = serde_json::from_str(json).expect("Parse ListObject<Set>");
     }
 
     #[test]
