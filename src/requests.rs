@@ -16,7 +16,9 @@ pub struct CardSearch(CardSearchFields);
 #[derive(Debug)]
 pub struct CardNamed(pub String, pub Exact);
 
-pub struct CardAutoComplete(String);
+#[derive(Debug)]
+pub struct CardAutoComplete(pub String);
+
 pub struct CardRandom;
 pub struct CardMultiverse(MultiverseId);
 pub struct CardMtgo(MtgoId);
@@ -141,5 +143,13 @@ impl ScryfallRequest for CardNamed {
             Exact::Fuzzy => "fuzzy".to_string(),
         };
         format!("/cards/named?{}={}", exact, self.0)
+    }
+}
+
+impl ScryfallRequest for CardAutoComplete {
+    type Response = types::Catalog;
+
+    fn path(&self) -> String {
+        format!("/cards/autocomplete?q={}", self.0)
     }
 }

@@ -99,4 +99,13 @@ mod tests {
             Err(e) => panic!("Failed to fetch: {:?}", e),
         }
     }
+
+    #[test]
+    fn card_autocomplete() {
+        let a = ScryfallApi::new();
+        match a.run(requests::CardAutoComplete("thal".to_string())) {
+            Ok(catalog) => assert!(catalog.data.contains(&"Thalia, Heretic Cathar".to_string())),
+            Err(e) => panic!("Failed to fetch: {:?}", e),
+        }
+    }
 }

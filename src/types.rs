@@ -193,6 +193,25 @@ pub struct ListObject<T> {
     warnings: Option<Vec<String>>,
 }
 
+#[derive(Debug, Serialize, Deserialize)]
+/// https://scryfall.com/docs/api/catalogs
+/// TODO: Do I want public thingies?
+pub struct Catalog {
+    object: String, // Always set to 'catalog'
+    pub uri: Option<URI>,
+
+    pub total_items: u32,
+
+    // The interesting data as strings
+    pub data: Vec<String>,
+}
+
+impl ScryfallResponse for Catalog {
+    fn parse(raw: &str) -> Catalog {
+        serde_json::from_str(raw).unwrap()
+    }
+}
+
 use serde::de::DeserializeOwned;
 
 impl<T> ScryfallResponse for ListObject<T>
